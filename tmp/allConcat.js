@@ -9,8 +9,11 @@ $(document).ready(function(){
         var medical = new Search($('#illness').val());
         $.get(medical.url)
             .then(function(result){
-                medical.doctorList = result.data;
-                console.log(medical.doctorList[0]);
+                if(result.meta.count === 0)
+                {
+                    $('#results').append("<h1 id='nope'>Apparently that particular malady doesnt exist, try again. </h1>")
+                }
+                console.log(result);;
                 Disperse(result.data);
             })
             .fail(function(error){

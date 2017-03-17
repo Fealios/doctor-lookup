@@ -1,3 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Ranga');
+
+
 body {
-    background-color: #3d3d3d;
+    background-color: #FDF9F3;
+}
+
+#title {
+    font-family: 'Ranga', cursive;
+    font-size: 60px;
+}
+
+.jumbotron {
+    background-color: #8c8c86;
+    // color: #faf4ec;
+    color: #f5efe8;
+}
+
+.form-group {
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+}
+
+.number {
+    font-family: 'Poppins', sans-serif;
+}
+
+#title {
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+#nope {
+    color: red;
 }
