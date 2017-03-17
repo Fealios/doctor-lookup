@@ -7,4 +7,4 @@ function Search (search){
 }
 
 
-exports.Doctor = Search
+exports.Search = Search
